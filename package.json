@@ -1,0 +1,41 @@
+{
+  "name": "zillowparser",
+  "version": "1.0.0",
+  "description": "zillowParser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
+    "prepublishOnly": "npm run build"
+  },
+  "bin": {
+    "zillow-minparser": "dist/bin/zillow-minparser.js",
+    "zillow-maxparser": "dist/bin/zillow-maxparser.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "“https://ilyakmet@github.com/ilyakmet/zillowParser.git”"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.4.4",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.17.2"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "cheerio": "^1.0.0-rc.3",
+    "readline-sync": "^1.4.9",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  }
+}
