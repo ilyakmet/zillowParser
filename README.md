@@ -7,6 +7,10 @@
 $ curl https://raw.githubusercontent.com/ilyakmet/zillowParser/master/install.sh | sh
 ```
 
+```bash
+$ cd zillowParser
+```
+
 ### Run Min Parser
 ```bash
 $ zillow-minparser
