@@ -4,6 +4,8 @@ git clone https://github.com/ilyakmet/zillowParser.git
 
 cd ./zillowParser
 
+mkdir output
+
 npm i
 
 make build
