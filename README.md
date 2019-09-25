@@ -40,3 +40,6 @@ https://www.zillow.com/homedetails/993-Massachusetts-Ave-APT-201-Arlington-MA-02
 
 https://www.zillow.com/homedetails/30-Paul-Revere-Rd-2-Arlington-MA-02476/2082890698_zpid/
 ```
+
+### Results
+You can find results in `output` dir
